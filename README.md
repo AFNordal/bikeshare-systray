@@ -1,4 +1,4 @@
-# Bikeshare-systray
+# bikeshare-systray
 Show the number of available bikes in your favorite bikeshare stations, directly in the windows systray! Simply update `config.py` with your provider URL, client id and desired stations, and run `main.py`. Your provider must use the [GBFS](https://github.com/MobilityData/gbfs/blob/master/gbfs.md) spec, like [Trondheim bysykkel](https://trondheimbysykkel.no/) and [Oslo bysykkel](https://oslobysykkel.no/) do:-D
 
 ![Demo](demo.png)
