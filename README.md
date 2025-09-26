@@ -13,4 +13,4 @@ To make the app run on startup, simply run `install.bat` in the project director
 To undo the installation, you only need to delete the launch file from your startup directory: Press `windows key` + `R` and run "shell:startup", then delete the file `bikeshare-systray-launcher.bat`.
 
 ## Usage
-To reload the stations, right-click the icon and click "Refresh".
+The icon will first appear in the collapsed systray menu. Drag-and-drop it to pin it to your taskbar. To reload the stations, right-click the icon and click "Refresh".
