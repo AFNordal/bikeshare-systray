@@ -10,7 +10,11 @@ def get_available_bikes(station_id: int) -> int:
     url = f"{endpoint}/station_status.json"
     headers = {"Client-Identifier": client_id}
     
-    response = requests.get(url, headers=headers)
+    try:
+        response = requests.get(url, headers=headers)
+    except:
+        return -1
+    
     data = response.json()
     
     for station in data["data"]["stations"]:
