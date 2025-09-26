@@ -7,7 +7,7 @@ Show the number of available bikes in your favorite bikeshare stations, directly
 Update `config.py` with your provider URL, client ID and desired stations. To run the app manually, run `main.py`. Client ID is just a string that identifies you and your application.
 
 ### Run on startup
-To make the app run on startup, simply run `install.bat` in the project directory. This will add a launch script to your startup directory and show it to you, and them start the app.
+To make the app run on startup, simply run `install.bat` in the project directory. This will add a launch script to your startup directory and show it to you, and then start the app.
 
 ### Uninstall
 To undo the installation, you only need to delete the launch file from your startup directory: Press `windows key` + `R` and run "shell:startup", then delete the file `bikeshare-systray-launcher.bat`.
