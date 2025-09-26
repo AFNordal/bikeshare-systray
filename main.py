@@ -4,6 +4,7 @@ import pystray
 from datetime import datetime
 from PIL import Image
 from config import station_names, client_id, endpoint
+import threading
 
 
 def get_available_bikes(station_id: int) -> int:
@@ -88,8 +89,10 @@ def launch_icon():
         pystray.MenuItem("Refresh", refresh),
         pystray.MenuItem("Quit", stop)
     )
+
     print("Launching...")
-    refresh(icon)
+    # Refresh immediately
+    threading.Thread(target=lambda: refresh(icon), daemon=True).start()
     icon.run()
 
 if __name__ == "__main__":
