@@ -6,7 +6,7 @@ Show the number of available bikes in your favorite bikeshare stations, directly
 To refresh, right-click the icon and click "Refresh".
 
 ## Run on startup
-To make the app run on startup, simply run `configure.bat` in the project directory. This will add a launch script to your startup directory and show it to you. If you then want to run it right away without rebooting, just double click `bikeshare-systray-launcher.bat`.
+To make the app run on startup, simply run `install.bat` in the project directory. This will add a launch script to your startup directory and show it to you. If you then want to run it right away without rebooting, just double click `bikeshare-systray-launcher.bat`.
 
 ### Uninstall
 To undo this, simply delete the launch file from your startup directory: Press `windows key` + `R` and run "shell:startup", then delete the file `bikeshare-systray-launcher.bat`.
