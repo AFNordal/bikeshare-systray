@@ -3,6 +3,10 @@ Show the number of available bikes in your favorite bikeshare stations, directly
 
 ![Demo](demo.png)
 
+## Requirements
+Required libraries are installed with
+```pip install pillow requests pystray```
+
 ## Configuration
 Update `config.py` with your provider URL, client ID and desired stations. To run the app manually, run `main.py`. Client ID is just a string that identifies you and your application.
 
